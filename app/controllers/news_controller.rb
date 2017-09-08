@@ -1,6 +1,7 @@
 class NewsController < ApplicationController
   include NewsCrawlersHelper
   def index
-    render json: btcx()
+    news = btcx()
+    render json: news, status: :ok
   end
 end
