@@ -6,6 +6,7 @@ import createHistory from 'history/createBrowserHistory';
 import { routerReducer, routerMiddleware } from 'react-router-redux';
 import { persistStore, autoRehydrate } from 'redux-persist';
 import thunk from 'redux-thunk';
+import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import Router from './Router';
 import error from'./reducers/error'

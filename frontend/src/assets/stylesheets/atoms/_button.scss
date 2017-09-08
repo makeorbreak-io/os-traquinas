@@ -1,0 +1,6 @@
+button {
+  @include remove_tap_highlight();
+  @include transition(1);
+  background-color: $light;
+  color: $dark;
+}
