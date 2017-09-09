@@ -1,3 +1,3 @@
 class News < ApplicationRecord
-  validates :email, uniqueness: true
+  validates :url, uniqueness: true
 end
