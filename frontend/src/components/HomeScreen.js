@@ -6,10 +6,10 @@ const HomeScreen = ({ news }) => (
       <div>
         <ul>
           <li>Title: {n.title} </li>
-          <li>Image: {n.img} </li>
+          <li>Image: {n.image} </li>
           <li>URL: {n.url} </li>
-          <li>Body: {n.info.body} </li>
-          <li>Date: {n.info.date} </li>
+          <li>Body: {n.body} </li>
+          <li>Date: {n.date} </li>
         </ul>
       </div>
     ))}

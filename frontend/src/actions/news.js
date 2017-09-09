@@ -9,7 +9,7 @@ export function listAllNews() {
         if (response.body.error) {
           dispatch(setError(response.body.error, 'listNews'));
         } else {
-          dispatch(listNews(response.body.news));
+          dispatch(listNews(response.body));
         }
         return null;
       }).catch(err => dispatch(setError(err.message, 'listNews')));
